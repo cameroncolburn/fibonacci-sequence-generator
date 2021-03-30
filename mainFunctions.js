@@ -35,5 +35,5 @@ function fibonacciGenerator() {
         //retrieves the array, converts to string then renders to the screen
         var outputString = fibonacciSequence.slice(0, lastDigit);
         outputString = fibonacciSequence.toString();
-        document.querySelector("div.sequence-output").innerHTML = outputString;
+        document.querySelector("section.sequence-output").innerHTML = outputString;
 }
