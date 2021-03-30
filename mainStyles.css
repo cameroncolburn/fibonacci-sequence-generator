@@ -16,3 +16,7 @@ body {
     height: 30vh;
     word-wrap: break-word;
 }
+
+.column-alignment {
+    align-content: center;
+}
